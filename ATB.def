@@ -1,0 +1,10 @@
+; ATB.Def
+
+LIBRARY			ATB
+DESCRIPTION		"Atb test object"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
